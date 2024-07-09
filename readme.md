@@ -4,7 +4,6 @@
 </p>
 
 <h3 align="center">💥 Pterodactyl Crasher</h3>
-<h3 align="center">Проект закрыт, мне нечего больше дорабатывать. Если хотите, пишите мне в дискорд за доработками - fiuimwix. Код рабочий, но проект больше не поддерживается.</h3>
 
 <div align="center">
 
@@ -17,57 +16,39 @@
 ---
 
 <p align="center">
-  <img src="uu5pqYm.png" alt="Пример работы :)" width="50%"/>
+  <img src="uu5pqYm.png" width="50%"/>
   <br>
-  <em>Пример работы</em>
+  <em>Crashed Host</em>
 </p>
 
 
 ---
 
-<p align="center">💣 Pterodactyl Crasher — это мощный инструмент, предназначенный для борьбы с некачественными серверами Pterodactyl. Эта программа позволяет имитировать ситуации, при которых происходит перераспределение ресурсов (Runtime Allocation Call), что может привести к сбою узла. Разработанный для использования в обучающих и исследовательских целях, Pterodactyl Crasher помогает администраторам и разработчикам понять и устранять потенциальные уязвимости, а также вредить ненадежным хостингам.
+<p align="center">💣 Pterodactyl Crasher is a powerful tool designed to combat low-quality Pterodactyl servers. This program allows you to simulate situations in which resource redistribution (Runtime Allocation Call) occurs, which can lead to node failure. Designed for use in educational and research purposes, Pterodactyl Crasher helps administrators and developers understand and eliminate potential vulnerabilities and damage to untrusted hosting systems.
     <br> 
 </p>
 
-## 📝 Обзор
 
-- [📝 Обзор](#-обзор)
-- [🧐 О проекте ](#-о-проекте-)
-- [🏁 Итак, начнем ](#-итак-начнем-)
-  - [Установка](#установка)
-- [⛏️ Языки программирования ](#️-языки-программирования-)
-- [✍️ Авторы ](#️-авторы-)
- 
+## 🧐About the project <a name = "about"></a>
 
+Pterodactyl Crasher is a tool that will help you take revenge on unscrupulous hosting providers. It creates large files and generates load, which ultimately puts a strain on the server. This method is also called Runtime Allocation Call. However, you are responsible for the consequences of use.
 
-## 🧐 О проекте <a name = "about"></a>
+## 🏁 So, let's begin <a name = "so, let's begin"></a>
 
-Pterodactyl Crasher — это инструмент, который поможет вам отомстить недобросовестным провайдерам хостинга. Он создает большие файлы и генерирует нагрузку, что в итоге создает нагрузку на сервер. Этот метод также называется Runtime Allocation Call. Однако за последствия от использования несете ответственность вы..
+First, choose the programming language you need: there is Java, Python, JavaScript. Choose the one that suits you. See the [Installation](#installation) section to learn how to run it.
 
-## 🏁 Итак, начнем <a name = "итак, начнем"></a>
+### Installation
 
-Сначала выбираем язык программирования, который вам нужен: у нас есть Java, Python, JavaScript. Выберите подходящий. Смотрите раздел [Установку](#установка), чтобы узнать, как запустить его на хостинге. 
+Upload files: if you use JS, then two files; if Python, then one and so on. Just run the file! Don't forget that the names may be different in the start command and the source file.
 
-### Установка
-
-Заливайте файлы: если используете JS, то два файла; если Python, то один и так далее. Просто запустите файл! Не забудьте, что названия могут быть разными в стартовой команде и исходном файле.
-
-## ⛏️ Языки программирования <a name = "yap"></a>
-Наш скрипт доступен на таких языках программирования, как:
+## ⛏️ Programming languages ​​<a name = "yap"></a>
+This script is available in programming languages ​​such as:
 
 - Python
 - JavaScript
 - Java
 - Rust
 
-## ✍️ Авторы <a name = "авторы"></a>
+## ✍️ PD <a name = "just one thing"></a>
 
-- [@xdearboy](https://github.com/xdearboy/) - Разработал скрипты. Javascript + Python.
-- [@noxcel](https://github.com/Nocxell) - Подал мне идею, Java.
-- [@vladdis](https://discord.com/invite/k-protect-community-public-925337010779078676) - Rust + Python скрипт для его запуска.
-- [@pm-kirill](https://github.com/PM-KIRILL) - Бульба Core-Nodes, заценил проект. 
-- [@IkdanYT](https://github.com/ikdanYT) - Доработал jarку, крутой чел епана рот
-
-## ✍️ Секретики <a name = "Секреты"></a>
-
-Aurorix параша, CoreNodes или BitrixNodes будут получше, а вообще купите VDS’ку на какой-нибудь Aeze, и всё.
+Let's get revenge from those who betrayed us and kicked from our own project(s), or end with our reputation, while all the work from the host was thanks to us.

@@ -3,15 +3,15 @@ import asyncio
 
 print(
     r"""                                                  
-github.com/xdearboy/Pterodactyl-Crasher
+github.com/ManucrackYT/Pterodactyl-Crasher
 
 Pterodactyl-Crasher
 
-Режим: забивка всей памяти
-Подготовка..""",
+Mode: full memory
+Getting ready..""",
 )
 
-print("Ебанный рот, погнали нахуй!")
+print("Let's goo, for our reputation!")
 
 
 async def run_with_console(cmd):

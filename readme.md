@@ -52,3 +52,8 @@ This script is available in programming languages ​​such as:
 ## ✍️ PD <a name = "just one thing"></a>
 
 Let's get revenge from those who betrayed us and kicked from our own project(s), or end with our reputation, while all the work from the host was thanks to us.
+
+
+## ✍️ Credits <a name = "credits"></a>
+
+Project originally forked from https://github.com/xdearboy/Pterodactyl-Crasher
